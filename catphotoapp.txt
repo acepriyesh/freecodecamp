@@ -1,0 +1,416 @@
+1--------<h1> Heading </h1>
+HTML tags have opening tags like <h1> 
+          and closimg tags like </h1>.
+
+The text for the element goes between the opening and closing tags.
+<h1> Text </h1>
+
+2---------h1-h6
+<h1> to <h6> heading elements are used to signify the importance of content below them. 
+h1 has highest importance and 
+h2 has lower importance.
+h6 has lowest importance.
+
+Only use h1 element per page and place lower importance headings below higher importance headings.
+
+3--------<p> Paragraph
+The <p> element is used to create a paragraph of text on websites.
+
+4--------<!-- comment -->
+Commenting allows you to leave messages without affecting the browser display.
+It also allows you to make code inactive. 
+A comment in HTML starts with
+<!-- contains any number of lines of text, and ends with -->
+
+5--------<main>
+HTML5 has some elements that identify different content areas. 
+These elements make your HTML easier to read and help with Search Engine Optimization (SEO) and accessibility.
+
+6--------Nesting
+In the previous step, you put the h1, h2, comment and p elements inside the main element. 
+This is called Nesting.
+Nested elements should be placed two spaces further to the right of the element they are nested in.
+This spacing is called indentation and it is used to make HTML easier to read.
+
+7--------Images
+<img> elemnt
+You can add images to your website by using the img element.
+img tags have an opening tag without a closing tag.
+A tag for an element without a closing tag is known as a 
+self-closing tag.
+
+8--------Attributes - source
+src=
+HTML attributes are special words inside the openning tag of an element
+to control the element's behavior. 
+The src attribute in an img element specifies the image's URL (Where the image is located).
+<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg">
+Multiple attributes of the same element can be in any order.
+
+9--------alt attribute
+alt=
+All img elements should have an alt attribute. 
+The alt attribute's text is used for screen readers to improve accessibility and is displayed 
+if the image fails to load. 
+For example, <img src="cat.jpg" alt="A cat"> has an alt attribute with the text A cat.
+
+10-------Link, anchor tag
+<a> You can link to another page with the anchor <a> elememt. 
+For example, <a href="https://freecodecamp.org"><a/> would link to freecodecamp.org
+
+11-------Link's text, picture
+<a href="https://freecodecamp.org">Click here to go to freecodecamp.org</a>
+
+12-------text as link
+turn text into links, that are in between text in a paragraph, using the <a> anchor element.
+
+13-------
+You can delete extra links that lead to the same webpage. 
+
+14-------target attrubute
+"_blank" is a target attribute, which opens the link in a new tab.
+
+15-------image as link
+Other types of content as well as text, 
+can also be turned into a link
+by wrapping it in anchor tags.
+
+16-------Section
+<section> to separate sections of the page.
+Nest your code inside the section. Includes the title of the section.
+^^^^
+You can Nest a form inside the section. No suggested the other way around.
+  *In HTML5 you should use the tags that are most semantically appropriate for a given task.
+    And indeed there is a section tag for forms – it is called fieldset.
+    So instead of using a section tag inside your form, you might use a fieldset
+    -answered by feela at stackoverflow.com
+
+17-------Section
+Add another section for a different subject.
+You can have many sections as needed.
+
+18-------List in a section
+<li> item in a list.
+You can put a list in a separate section.
+<h2> Cat lists </h2> in a heading 2 tag, as h1 should only be used once at the top of the page.
+Note the pluralization of the title of the section as there will be more that one list.
+
+19-------Lower rank
+<h3> Things cats love: <h3> 
+When you add a lower rank heading element to the page, h3 is lower importance than h2.
+it's implied that you're starting a new subsection. 
+Note: subsection <h3>.
+
+20-------Unordered list
+<ul> tag is used to start a list of items whose order is not important.
+
+21-------List tag
+<li> is a tag to create list elements.
+Usually always Nested inside of <ul> or <ol> or another.
+
+22-------image
+Another image added to the page in the second section, with an alt attribute.
+
+23-------Figure
+<figure> The figure element represents self-contained content 
+and will allow you to associate an image with a caption.
+images are to be Nested within figure elements.
+
+24------Figcaption
+<figcaption> element is used to add a caption,
+to describe the image contained within the figure element.
+figcaption also maked the caption close up below the image almost as if superscripted.
+It can also help to visually differentiate it from normal text.
+
+25-------Emphasize
+<em> element id used to emphasize words.
+Words can be emphasized even if they are within another element.
+Just like how they can be turned into links with anchor elements.
+
+26-------Subsection new.
+<h3>. Again h3 is used to add a new subsection. 
+For slightly different subject.
+This new subsection is of equal importance as the earlier subsection.
+
+27-------Ordered list
+<ol> The code for an ordered list is similar to an unordered list,
+but list items in an ordered list are
+numbered when displayed.
+
+28-------Figure
+Another figure element, for an image. Should add a figcaption later.
+
+29-------image
+an image of one of the things the cats hate.
+
+30-------alt
+alernative to image by description of the image 
+if it doesnt load for any reason.
+
+31-------figcaption
+Giving the image a description to figure using <figcaption> element.
+
+32-------Strong (Bold)
+<strong> element is used to indicate that some text is of strong importance or urgent.
+<bold> element was used in previous versions of HTML.
+HTML5 is backwords compatible with recent previous versions of HTML.
+
+33-------section
+Another section added.
+
+34-------section
+<h2> Note: Not a subsection of an earlier section of similar importance.
+Note: subsection of h1 element you can say. h1 is used as most important only once at the top of the page.
+
+35-------Form
+<form> element is used to create a form 
+to collect information from the user.
+
+36-------Action attribute
+attribute action= indicates 'where (in database)' form data should be sent.
+
+37-------input
+<input> element is used to help user input the data 
+with appropriate methods
+in several ways. e.g. textbox, radio button, checkbox, 
+Nested within form element.
+
+38-------type attribute and value
+type= attribute is used to create several kind of inputs.
+e.g names, email, password, reset and submit buttons.
+or a control to let users select a file from their computer.
+type="value". value is given to attributes.
+
+39-------name attribute
+name= attribute must be given to a the text field, and 
+assign it a value to represent the data being submitted.
+So that for a form's data to be accessed 
+by the location specified in the action attribute.
+
+40-------placeholder attribute
+placeholder= text is used to give people a 
+hint about what 
+kind of information 
+to enter into an input.
+Spacing between words allowed.
+
+41-------required attribute (value less)
+To prevent a user from submitting your form when required information is missing,
+you need to add the required attribute to an input element.
+only the word 'required' is used.
+'value' not needed be set to this attribute. Therefore no '=""'.
+Must have a space between it and other attributes.
+suggested by the placeholder for what information must be provided, as it is required.
+
+42-------button
+<button> element is used to create a clickable button.
+Add text to it e.g Submit, Clear, Click here, etc. Just remember to define it accordingly.
+The default behaviour of clicking a 'form button' without any attributes 
+submits the form to the location specified in the form's action attribute.
+
+43-------Inline elements
+Even though the button is added below the input element in the code,
+input and button are examples of inline elements so 
+they appear next to each other on the page. 
+A button will submit the form by default. 
+However, relying on default behaviour may cause confusion.
+Add type attribute,
+="value" and assign it a value e.g. submit to 
+make it clear that it is a submit button. 
+
+44-------Radio buttons
+Radio buttons are used for questions where you 
+only want one answer out of 
+multiple options.
+They can also be created inside input elements by using 
+type= attribute and assigning it 
+value of ="radio".
+There are other similar ways depending on design requirements.
+
+45-------Label elelments
+<label> elements are used to help associate the text 
+for an input element with the input element itself. 
+(especially for assistive technologies like screen readers).
+*e.g. by Nesting input element inside label element
+i.e. <label><input type="radio"> cat</label> 
+makes it so 'clicking the word 'cat'' also selects the corresponding radio button.
+If not wanted this way do not Nest input element inside label element.
+
+46-------id attribute
+id= is used to identify specific HTML elements.
+The value of each id attribute must be unique to 
+differentiate from other id values for the entire page.
+
+47-------button radio
+radio button as in input.
+Nested inside of label element.
+with using type= attribute and assigning it a value of ="radio".
+
+48-------name attribute
+name= is needed to give to all buttons and 'assign the same 'value'' to them,
+so to selecting a button automatically deselects another button.
+
+49-------value attribute
+value= Yes, there is an attribute called value as well.
+The form data for the button is based on its 'name' and 'value' attributes.
+If value attributes are not assigned with unique values to each buttons, 
+and if you select the Indoor button and submit the form, 
+the form data will include indoor-outdoor=on,
+which is not useful when you have multiple buttons.
+Giving a different value to each value attribute 
+helps differentiate data belonging to different buttons for the database.
+For convenience, you can set the button's 
+value attribute to the same value as its 
+id attribute.
+
+50-------Block-level elements
+e.g. fieldset element is a block-level element,
+meaning they appear on a new line. just like heading and paragraph elements.
+
+50a-------Fieldset
+<fieldset> element is used to group related inputs and labels together in a web form.
+It puts a box border around nested elements for visual identification.
+e.g. radio buttons, checkboxes, personal info, location and related labels.
+*In HTML5 you should use the tags that are most semantically appropriate for a given task.
+    And indeed there is a section tag for forms – it is called fieldset.
+    So instead of using a section tag inside your form, you might use a fieldset
+    -answered by feela at stackoverflow.com
+
+51-------Legend
+<legend> element acts as a 'caption' for the content in the fieldset element.
+It gives users context about what they should enter into that part of the form.
+
+52-------fieldset
+<fieldset> more fieldset to be added for inputs of different topic.
+
+53-------legend
+<legend> can add a legent to the new fieldset now.
+
+54-------Checkboxes
+can be created inside an input element with an attribute type as checkbox. 
+But also need a text after the input element to show what the checkbox is for.
+similar to buttons.
+type= checkbox are attributes.
+Forms commonly use checkboxes for questions that may have more than one answer.
+
+55-------id
+Add an id= attribute with the value ="loving" to the checkbox input.
+Unique, remember id= attributes have to be unique throughout the web page.
+
+56-------for
+for= attribute is used as another way 
+to associate an
+input element's text with the 
+element itself, as such:
+<labeL for="loving">Loving</label>
+                                  (<input type="checkbox" id="loving">
+                                    <labeL for="loving">Loving</label>)
+
+57-------name
+Add the name= attribute with the ="personality" value. to the checkbox input element.
+While it is not noticed in the browser,
+doing this makes it easier for a server
+to process your web form,
+especially when there are multiple checkboxes.
+
+58-------checkbox
+type="checkbox", create another checkbox for another option which could 
+an additinal answer. For lazy.
+
+59-------checkbox
+type="checkbox", create another checkbox for another option which could 
+an additinal answer. For Energetic.
+
+60-------name/value
+Like radio buttons, form data for checkboxes are name/value attribute  pairs.
+While the value= attribute is optional, 
+its best to include it with any checkboxes or radio buttons on the page.
+
+61-------checked attribute
+checked attribute does not need a value assigned to it.
+just have it in the input element with spaces between it and the other attributes.
+just like the required attribute.
+In order to make a checkbox checked or radio button selected by default,
+add the checked attribute to the input element. 
+Make the first radio button and the first checkbox selected by default.
+
+62-------footer
+<footer> element is used to display some relavent information collectively and appropriately
+at the bottom of the page.
+
+63--------Nest P
+Nest a <p> element with the text No Copyright - freeCodeCamp.org within the footer element.
+
+64-------Nest anchor <a href="">text</a>within </p>
+<p>Text <a href="">freeCodeCamp.org</a></p>
+
+65-------body
+<body> All page content elements that should be rendered to the page go inside the body element.
+
+65-------head
+<head> However, the head element goes above the body element.
+Other important information which doesnt need render goes inside the head element.
+head element contains meta data about the web page.
+
+66-------title
+<title> determines what titile should be shown in the tab of the web page.
+it Nests inside the head element.
+
+67--------html 
+<html> Entire contents of the web page are nested within the html element.
+All other elements must be 
+descendents of this html element.
+
+67--------lang
+lang= attribute is to be added to the html opening tag.
+set value to ="em" for English.
+
+68--------<!DOCTYPE html>
+All pages should begin with <!DOCTYPE html>.
+This special string is known as a 'declaration' and 
+ensures the browser tries to meet industry-wide specifications.
+
+69--------meta
+    You can set browser behavior by adding self-closing meta elements in the head. Here's an example:
+    <meta charset="UTF-8">
+    Tells the browser to parse the markup into multiple languages
+    by utilizing the UTF-8 charecterset.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

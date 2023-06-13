@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+    All pages should begin with <!DOCTYPE html>.
+    This special string is known as a 'declaration' and 
+    ensures the browser tries to meet industry-wide specifications.
+html 
+    Entire contents of the web page are nested within the html element.
+    All other elements must be 
+    descendents of this html element.
+
+Body
+    All page content elements that should be rendered to the page go inside the body element.  But Not head.
+
+head
+    All the important information that do not need rendering on the web page goes inside the head element.
+    goes above the body element.
+
+meta
+    You can set browser behavior by adding self-closing meta elements in the head. 
+    Here's an example:
+    <meta attribute="value">
+    Tell the browser to parse the markup into multiple languages 
+    by creating a meta element as a child of the head element. 
+    Set its charset attribute to UTF-8.
+
+title
+    element determines what title to show on the tab of the web page.
+    title element Nests inside the head element.
+
+lang
+    attribute to specify that the language of the webpage.
+    set lang="en" to the opening tag of html. for English.
+
+Inline 
+    elements do not occupy the whole line space and allow other inline elements to start in the same line.
+
+Block-level
+    elements start in a new line and also occupy the while line space.
+
+Self-closing
+    tags do not need separate closing tags.
+
+Headings
+    <h1><h2><h3><h4><h5><h6>
+
+Paragraph   
+    <p>
+
+Comment
+    <!-- -->
+
+Nesting
+
+    element within element
+
+<main>
+    helps SEO
+
+Attributes 
+    source, alt, href etc. Multiple attributes of the same element can be in any order.
+
+Image
+    <img src="" alt="" />
+
+Anchor
+    <a href=""
+
+target 
+    "_blank"
+
+<section>
+    and subsections
+
+<ul>
+    unordered list
+
+<li>
+    list item
+
+<figure>
+    content of image and more
+
+<figcaption>
+    caption for image/figure
+
+<em>
+    emphasize or (italic)
+
+<ol>
+    ordered list
+
+<strong>
+    Strong importance or (bold)
+
+<form>
+    Form to obtain information from the user.
+
+action
+    attribute used for forms for data destination (database file path)
+
+<input>
+    are to collect data with in several ways
+
+type
+    attribute to define a type of input.
+
+value
+    is given to an attribute. 
+
+name - as like for= attribute.
+    attribute to represent the uniqueness of the data being submitted.
+
+placeholder
+    attribute for hint of kind of input expected.
+
+required
+    attribute for there must be an input.
+
+<button>
+    a clickable button to which a text can be given. Must have appropriate attributes with values.
+
+Inline
+    elements do not block spaces. They appear beside previous elements in the same line. Not in new lines.
+
+Radio button
+    when one answer is needed out of many options
+
+Label
+    text to help determine the kind of input required.
+
+id
+    to identify specific HTML elements.
+
+name
+    attribute utilized for preventing more than one button selected.
+
+value
+    attribute to uniquely identify a button for the database.
+
+Fieldset
+    to group related inputs and labels together in a web form.
+
+Legend
+    acts as a caption for the contents of the fieldset element.
+
+Checkboxes
+    for questions that may have more than one answer.
+
+for - as like name= attribute.
+    attribute as another way to associate an input element's text with the element itself.
+    attribute to represent the uniqueness of the data being submitted.
+
+checked
+    attribute to have one button or checkbox selected by default.
+
+header
+    section always the top part of a web page.
+
+footer
+    section always the bottom part of a web page.
+
+
+
+
+
+
+
+
+
